@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+   
+}
+
+html,body{
+    width: 98%;
+    height: 98%;
+    background-color: #bbf7d0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-box{
+    
+    background-image: linear-gradient(  #0d9488,#115e59,#0d9488);
+    border: solid;
+    height: 90%;
+    width: 50%;
+    overflow-y: hidden;
+    cursor: url("sword-new-small-removebg-preview.png"),auto;
+}
+
+.essentials{
+    display: flex;
+    gap: 15%;
+    width: 50%;
+    justify-content: center;
+    transition: 2s;
+}
+
+.trialsleft{
+    width: 15%;
+    height: 100%;
+    outline: 2px solid #18181b;
+    outline-offset: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+#trials img{
+    width: 33.33%;
+}
+
+.bg{
+    background-color: #14b8a6;
+}
+
+.score{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: solid 2px #18181b;
+    outline-offset: 2px;
+}
+
+
+.container
+{
+    position: relative;
+    width: 8%;
+    height: 8%;
+    top: -20%;  
+    left: 0px;
+    cursor: url("sword-new-small-removebg-preview.png"),auto;
+
+}
+
+#fruits{
+    width: 80px;
+    height: 80px;
+    display: block;
+    cursor: url("sword-new-small-removebg-preview.png"),auto;
+
+}
+
+.start_button{
+    padding: 2% 3%;
+    background-image: linear-gradient(to top left, #059669, #064e3b);
+    border: none;
+    outline: 2px solid #18181b;
+    outline-offset: 2px;
+    color: #d6d3d1;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 10px;
+}
+
+.start_button:active{
+    background-image: linear-gradient(to top left, #064e3b,#064e3b);
+}
