@@ -94,3 +94,19 @@ html,body{
 .start_button:active{
     background-image: linear-gradient(to top left, #064e3b,#064e3b);
 }
+
+@media (max-width: 950px){
+    .outer-box{
+        width: 90%;
+    }
+
+    .essentials{
+       
+        width: 85vw;
+        gap: 5%;
+    }
+
+    .essentials div{
+        width: 33%;
+    }
+}
