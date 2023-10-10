@@ -4,6 +4,11 @@ let score = 0
 let left
 let random
 let interval
+const widthSize = window.matchMedia("(max-width: 950px)");
+
+
+
+
 
 const jsMedia = (widthSize) =>{
     if(widthSize.matches){
@@ -192,9 +197,5 @@ const jsMedia = (widthSize) =>{
 }
 
 
-
-const widthSize = window.matchMedia("(max-width:950px)");
-
-widthSize.addEventListener("change", jsMedia);
-
-jsmedia(widthSize)
+widthSize.addEventListener("change",jsMedia);
+jsMedia(widthSize);
