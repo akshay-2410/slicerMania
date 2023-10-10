@@ -34,7 +34,7 @@ const jsMedia = (widthSize) =>{
                     {  
                         $("#fruits").show(1)
                     
-                        left = Math.random()*80+"vw";
+                        left = Math.random()*70+"vw";
                     
                         $("#container").css({"left":left})
                     
